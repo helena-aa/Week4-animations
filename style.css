@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Freeman&display=swap');
+
+body {
+    background-color: cornsilk;
+}
+
+.heading {
+    text-align: center;
+    position: relative; /*top-right-bottom-left*/
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {top: -250px;}
+    100% {top: 50px;}
+}
+
+.retsept-heading {
+    color: deepskyblue;
+    font-family: "Freeman", sans-serif;
+    font-size: 5rem;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.pasta-heading {
+color: deepskyblue;
+font-family: "Freeman", sans-serif;
+    font-size: 5rem;
+}
+
+.image {
+    text-align: center;
+    position: relative; /*top-right-bottom-left*/
+    animation: picture;
+    animation-duration: 3s;
+}
+
+@keyframes picture {
+    0% {left: -250px;}
+    100% {left: 0px;}
+}
+
+.pilt {
+    width: 290px;
+}
+
+.heading3 {
+    text-align: center;
+}
+
+.koostisosad-heading {
+    color: deepskyblue;
+    font-family: "Freeman", sans-serif;
+    font-size: 2rem;
+    position: relative; /*top-right-bottom-left*/
+    animation: heading2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading2 {
+    0% {top: -10px;}
+    50% {top: 10px;}
+    100% {top: 0px;}
+}
+
+.koostisosad {
+    color: deepskyblue;
+    font-family: "Freeman", sans-serif;
+    font-size: 1.5rem;
+    background-color:cornsilk;
+    animation: värv;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+}
+
+@keyframes värv {
+    0% {background-color:aqua}
+    50% {background-color: coral;}
+    100% {background-color:cornsilk}
+}
+
+.table {
+    color: deepskyblue;
+    width: 50px;
+    font-family: "Freeman", sans-serif;
+    font-size: 2rem;
+}
+
+.heading4 {
+    color: deepskyblue;
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    font-size: 2rem;
+}
+
+.retsept {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color:mediumblue;
+}
+
+.footer {
+    text-align: center;
+     color: deepskyblue;
+ }
